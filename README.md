@@ -1,2 +1,3 @@
 # ONLINE-COOKING-RECIPE-APP
-Collage project
+Collage project.
+Developers - Rajib Gupta, Rishav Kumar, Samajit Nandi, Ismat Sayeed, Arshi Parveen and Srijayee Banerjee
