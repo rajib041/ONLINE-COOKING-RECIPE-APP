@@ -131,49 +131,49 @@
             android:paddingRight="20dp">
 
             <ImageView
-                android:id="@+id/salad"
+                android:id="@+id/veg"
                 style="@style/my_Style"
                 android:background="@drawable/category_card_bc"
-                android:src="@drawable/category_salad" />
+                android:src="@drawable/veg_bg_remove" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/salad"
-                android:layout_alignStart="@id/salad"
-                android:layout_alignEnd="@id/salad"
+                android:layout_below="@id/veg"
+                android:layout_alignStart="@id/veg"
+                android:layout_alignEnd="@id/veg"
                 android:layout_marginStart="17dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginEnd="19dp"
                 android:layout_marginBottom="-23dp"
                 android:fontFamily="@font/poppins_lightt"
-                android:text="Salad"
+                android:text="Veg"
                 android:textColor="@color/black"
 
                 android:textSize="17sp" />
 
             <ImageView
-                android:id="@+id/MainDish"
+                android:id="@+id/NonVeg"
                 style="@style/my_Style"
                 android:layout_marginStart="17dp"
-                android:layout_toEndOf="@id/salad"
+                android:layout_toEndOf="@id/veg"
                 android:background="@drawable/category_card_bc"
-                android:src="@drawable/drinks" />
+                android:src="@drawable/nonveg_bg_remove" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/MainDish"
-                android:layout_alignStart="@id/MainDish"
-                android:layout_alignEnd="@id/MainDish"
-                android:layout_marginStart="17dp"
+                android:layout_below="@id/NonVeg"
+                android:layout_alignStart="@id/NonVeg"
+                android:layout_alignEnd="@id/NonVeg"
+                android:layout_marginStart="1dp"
                 android:layout_marginTop="3dp"
-                android:layout_marginEnd="19dp"
+                android:layout_marginEnd="11dp"
                 android:layout_marginBottom="-23dp"
                 android:fontFamily="@font/poppins_lightt"
                 android:gravity="center"
-                android:text="Main"
+                android:text="Non Veg"
                 android:textColor="@color/black"
 
                 android:textSize="17sp" />
@@ -182,9 +182,9 @@
                 android:id="@+id/Drinks"
                 style="@style/my_Style"
                 android:layout_marginStart="17dp"
-                android:layout_toEndOf="@id/MainDish"
+                android:layout_toEndOf="@id/NonVeg"
                 android:background="@drawable/category_card_bc"
-                android:src="@drawable/catergory_drinks" />
+                android:src="@drawable/ice_tea_drink" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -204,26 +204,26 @@
                 android:textSize="17sp" />
 
             <ImageView
-                android:id="@+id/Deserts"
+                android:id="@+id/Desserts"
                 style="@style/my_Style"
                 android:layout_marginStart="17dp"
                 android:layout_toEndOf="@id/Drinks"
                 android:background="@drawable/category_card_bc"
-                android:src="@drawable/category_dessert" />
+                android:src="@drawable/dessert" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/Deserts"
-                android:layout_alignStart="@id/Deserts"
-                android:layout_alignEnd="@id/Deserts"
+                android:layout_below="@id/Desserts"
+                android:layout_alignStart="@id/Desserts"
+                android:layout_alignEnd="@id/Desserts"
                 android:layout_marginStart="1dp"
                 android:layout_marginTop="3dp"
                 android:layout_marginEnd="1dp"
                 android:layout_marginBottom="-23dp"
                 android:fontFamily="@font/poppins_lightt"
                 android:gravity="center"
-                android:text="Deserts"
+                android:text="Desserts"
                 android:textColor="@color/black"
 
                 android:textSize="17sp" />
