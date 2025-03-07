@@ -12,7 +12,9 @@ constraintlayout = "2.2.1"
 gifversion = "1.2.29"
 navigationFragmentKtx = "2.6.0"
 navigationUiKtx = "2.6.0"
-room_version = "2.6.1"
+room = "2.6.1"
+glide = "4.16.0"  # ✅ Added Glide version
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -21,14 +23,19 @@ androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-co
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
-roomruntime  = { group = "androidx.room", name = "roomruntime", version.ref = "room_version" }
 androidgif = { group = "pl.droidsonroids.gif", name = "android-gif-drawable", version.ref = "gifversion" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
+# ✅ Added Room dependencies
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# ✅ Added Glide dependency
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version = "1.9.0-1.0.13" }
-
