@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+<<<<<<< HEAD
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+=======
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,17 +21,24 @@
         android:theme="@style/Theme.ONLINECOOKINGRECIPEAPP"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".SearchActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
+=======
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
             android:name=".SignIn"
             android:exported="false" />
         <activity
             android:name=".SignUp"
             android:exported="false" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
         <activity
             android:name=".HomeActivity"
             android:exported="false" />

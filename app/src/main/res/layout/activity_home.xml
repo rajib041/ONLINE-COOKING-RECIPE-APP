@@ -71,6 +71,7 @@
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_marginStart="24dp"
+<<<<<<< HEAD
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/searchview"
@@ -86,6 +87,22 @@
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
+=======
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="none"
+        android:focusable="false"
+        android:editable="false"
+        android:background="@drawable/searchview"
+        android:fontFamily="@font/poppins_lightt"
+        android:hint="Search recipe"
+        android:paddingStart="47dp"
+        android:textSize="17sp"
+        android:textColorHint="#5A5858"
+
+        app:layout_constraintEnd_toEndOf="parent"
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -233,7 +250,11 @@
     </HorizontalScrollView>
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/search_txt"
+=======
+        android:id="@+id/textView7"
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
         android:layout_width="255dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
@@ -252,6 +273,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/search_txt"
+=======
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
         tools:listitem="@layout/popular_rv_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>

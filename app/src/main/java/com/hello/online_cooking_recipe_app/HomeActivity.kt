@@ -1,6 +1,9 @@
 package com.hello.online_cooking_recipe_app
 
+<<<<<<< HEAD
 import android.content.Intent
+=======
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,9 +25,12 @@ class HomeActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         setUpRecylcerView()
+<<<<<<< HEAD
         binding.editTextText.setOnClickListener{
             startActivity(Intent(this,SearchActivity::class.java))
         }
+=======
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
     }
 
 

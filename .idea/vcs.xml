@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/ONLINE-COOKING-RECIPE-APP" vcs="Git" />
+=======
+>>>>>>> 9ad6373a0db594cf10bc7a72d476514c691c7e4e
   </component>
 </project>
